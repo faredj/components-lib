@@ -34,6 +34,7 @@ var TestComponent = function (_a) {
     var heading = _a.heading, content = _a.content;
     return (React.createElement("div", { "data-testid": "test-component", className: "test-component" },
         React.createElement("h1", { "data-testid": "test-component__heading", className: "heading" }, heading),
+        React.createElement("div", { "data-testid": "test-component__content" }, content),
         React.createElement("div", { "data-testid": "test-component__content" }, content)));
 };
 

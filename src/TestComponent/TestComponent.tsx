@@ -13,6 +13,7 @@ const TestComponent: React.FC<TestComponentProps> = ({ heading, content }) => (
       {heading}
     </h1>
     <div data-testid="test-component__content">{content}</div>
+    <div data-testid="test-component__content">{content}</div>
   </div>
 );
 
