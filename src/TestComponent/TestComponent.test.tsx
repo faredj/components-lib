@@ -1,8 +1,7 @@
 import React from "react";
 import { render, within } from "@testing-library/react";
 
-import TestComponent from "./TestComponent";
-import { TestComponentProps } from "./TestComponent.types";
+import TestComponent, {TestComponentProps} from "./TestComponent";
 
 describe("TestComponent", () => {
   const renderComponent = ({ heading, content }: Partial<TestComponentProps>) =>

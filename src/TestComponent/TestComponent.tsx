@@ -1,6 +1,9 @@
-import React from "react";
+import React, {ReactNode} from "react";
 
-import { TestComponentProps } from "./TestComponent.types";
+export interface TestComponentProps {
+    heading: string;
+    content: ReactNode;
+}
 
 import "./TestComponent.scss";
 
