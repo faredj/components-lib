@@ -1,4 +1,2 @@
-import Btn from "./Btn";
-import SayHello from "./SayHello";
-
-export  {SayHello, Btn}
+export * from "./Btn"
+export * from "./SayHello"
